@@ -1,0 +1,24 @@
+<div id='weather-app'>
+
+    <p class="heading">Weather Application</p>
+    <div class="header-section">
+        <div class="moon"></div>
+        <div class="temp-detail">
+            <p class="temprature-detail">
+                {{weatherData.temp_celcius}}°
+            </p>
+            <p class="max-min-temp">
+                {{weatherData.temp_max}}°/{{weatherData.temp_min}}°
+            </p> 
+            <div>
+                <span>W/S : </span>
+                <span>{{weatherData.wind.speed}}km/hr</span>
+            </div>
+            <div>
+                <span>Location : </span>
+                <span>{{weatherData.name}}</span>
+            </div>
+        </div>
+    </div>
+    
+</div>

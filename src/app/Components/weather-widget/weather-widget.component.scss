@@ -1,0 +1,40 @@
+
+#weather-app{
+    width: 30%;
+    margin-top: 25px;
+    position:absolute;
+    font-weight: 900;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%);
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to top, #283E51, #0A2342); 
+    background: linear-gradient(to top, #283E51, #0A2342); 
+    background: -olinear-gradient(to top, #283E51, #0A2342); 
+    color: white;
+    height: 40vh;
+    border-radius: 25px;
+    .heading{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .header-section{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        .moon{
+            background-color: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px 20px #0ff;
+        }
+        .temp-detail{
+            .temprature-detail{
+                font-size: 35px;
+            }
+        }
+    }
+}
+
